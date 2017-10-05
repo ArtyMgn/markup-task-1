@@ -1,0 +1,61 @@
+.frac
+{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    letter-spacing: .01em;
+    text-align: center;
+}
+
+.frac > div
+{
+    display: block;
+    padding: .1em;
+}
+
+.denominator
+{
+    border-top: thin solid black;
+}
+
+.rTable
+{
+    display: table;
+}
+
+.rTableRow
+{
+    display: table-row;
+}
+
+.rTableHeading
+{
+    display: table-header-group;
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.rTableBody 
+{
+    display: table-row-group;
+}
+
+.rTableCell,
+.rTableHead, 
+{
+    display: table-cell;
+    padding: 3px 10px;
+    border: thin solid black;
+}
+
+table,
+th,
+td
+{
+    border: thin solid black;
+}
+
+span
+{
+    color: red;
+}
