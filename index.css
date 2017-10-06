@@ -41,7 +41,7 @@
 }
 
 .rTableCell,
-.rTableHead, 
+.rTableHead 
 {
     display: table-cell;
     padding: 3px 10px;
